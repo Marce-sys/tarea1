@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class RegistroAsistencia {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicitar nombre del empleado
+        System.out.print("Ingrese el nombre del empleado: ");
+        String nombreEmpleado = scanner.nextLine();
+
+        // Solicitar total de horas asistidas previamente
+        System.out.print("Ingrese el total de horas asistidas previamente: ");
+        int totalHoras = scanner.nextInt();
+
+        // Solicitar horas asistidas en el día actual
+        System.out.print("Ingrese las horas asistidas en el día actual: ");
+        int horasDiaActual = scanner.nextInt();
+
+        // Sumar horas del día actual al total usando operador +=
+        totalHoras += horasDiaActual;
+
+        // Mostrar resultado
+        System.out.println("Empleado: " + nombreEmpleado);
+        System.out.println("Total de horas asistidas: " + totalHoras);
+
+        scanner.close();
+    }
+}
+    }
+}
