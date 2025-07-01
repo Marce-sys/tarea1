@@ -11,7 +11,7 @@ public class ejercicio17 {
                 contadorNegativos++;
             }
         }
-        System.out.println("\nCantidad de números negativos ingresados: " + contadorNegativos);
+        System.out.println("\nCantidad de números negativos ingresados...........: " + contadorNegativos);
         scanner.close();
     }
 }
